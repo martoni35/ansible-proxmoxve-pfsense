@@ -16,11 +16,11 @@ Proxmox sera ensuite disponible par accès VPN + SSH.
 Plusieurs rôles composeront ce playbook et permettront de distinguer les différentes étapes :
 
 * rôle pour la configuration de proxmox:
-- hostname, partitionnement, cartes réseaux physiques, compte system et compte proxmox
+  hostname, partitionnement, cartes réseaux physiques, compte system et compte proxmox
 * rôle pour la configuration des services sur le serveur proxmox:
-- service ssh, ajout de fail2ban, service smtp, service iptables et son template, template des routes...
+  service ssh, ajout de fail2ban, service smtp, service iptables et son template, template des routes...
 * rôle pour la création d'une VM (récupération fichier vpn-client par exemple)
 * rôle pour la création et configuration de pfsense
-- déploiement depuis une image, configuration, création des réseaux, créations des rules..
+  déploiement depuis une image, configuration, création des réseaux, créations des rules..
 * rôle pour le service VPN de pfsense
 
